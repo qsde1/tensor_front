@@ -1,0 +1,122 @@
+.main{
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: 20px;
+    background-color: #dbdbdbb0;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.container{
+    width: 35%;
+    min-width: 300px;
+    height: 100%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+
+    @media (max-width: 1500px) {
+        width: 55%;
+        text-align: center;
+    }
+
+    @media (max-width: 1000px) {
+        width: 65%;
+        text-align: center;
+    }
+
+    @media (max-width: 800px) {
+        width: 80%;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+.title{   
+    text-align: center; 
+}
+
+
+.title__picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 250px;
+    overflow: hidden;
+    margin: 30px auto;
+    position: relative;
+}
+.title__picture img {
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    height: 200%;
+    width: 200%;
+}
+.description, .social{
+    width: 100%;
+    min-width: 200px;
+    border: 1px solid none;
+    border-radius: 25px;
+    padding: 20px 15px;
+    margin: 35px;
+    background-color: #FFF;
+    box-shadow: 1px 1px 37px 7px rgba(200,  200,  200, 1);
+}
+
+.description__content li {
+    margin: 10px 0;
+    padding: 15px 15px;
+    border-radius: 15px;
+    background-color: #dbdbdbb0;
+}
+li img {
+    width: 50px;
+    height: 50px;
+}
+
+#react{
+    color: #079cb6;
+}
+
+#qwik{
+    color: #9870da;
+}
+
+#vue{
+   color: #34996c; 
+}
+
+.description__content p {
+    margin: 0 0 15px 0;
+}
+
+.social__link {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.social__text{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.social__text:hover{
+    border-bottom: 1px solid black;
+}
+
+.material-symbols-outlined{
+    color: black;
+    margin-right: 5px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' -25,
+    'opsz' 40
+}
