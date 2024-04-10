@@ -107,7 +107,7 @@ function task23(arr) {
             });
             return totalBalance;
         },0)
-        return monthsStats;
+        return {'year': y.number, monthsStats};
     });
-    return(result);
+    return result;
 }
