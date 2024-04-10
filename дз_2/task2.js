@@ -83,6 +83,7 @@ function task23(arr) {
             years.push(year);
         }
     });
+    
     //для каждого года получить его уникальные месяцы из общего массива
     let yearsNumbersArray = years.map(y => y.number);
     yearsNumbersArray.forEach(yNum => {
